@@ -1,6 +1,8 @@
 h1 {
     text-align: center;
   }
+
+  
   
   form {
     text-align: center;
@@ -8,16 +10,24 @@ h1 {
   }
   
   input[type="text"] {
+    height: 200px;
+    width: 300px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 30px;
   }
   
   button {
+    height: 100px;
+    width: 200px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
   }
   
   #output {
     text-align: center;
     font-size: 18px;
+  }
+
+  #td{
+    font-size: 60px;
   }
