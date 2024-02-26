@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Input</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>TO DO</h1>
+  <form id="myForm">
+    <input type="text" id="myInput" placeholder="Type something">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="output"></div>
+
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var inputText = document.getElementById("myInput").value;
+    var outputDiv = document.getElementById("output");
+    var newElement = document.createElement("div");
+    newElement.textContent = inputText;
+    outputDiv.prepend(newElement);
+    document.getElementById("myInput").value = "";
+    });
+</script>
+</body>
+</html>
+
+
+
+
+

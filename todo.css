@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #output {
+    text-align: center;
+    font-size: 18px;
+  }
